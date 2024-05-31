@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <a id="About" onclick="showAbout()" class="animated fadeIn" style="animation-delay:2.0s;">About</a>
+    <a id="Projects" onclick="showProjects()" class="animated fadeIn" style="animation-delay:2.0s;">Projects</a>
+    <a id="Contact" onclick="showContact()" class="animated fadeIn" style="animation-delay:2.0s;">Contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:0.8s;">
+        <h1>Ayush Kumar</h1>
+        <h2>Frontend Software Developer</h2>
+        <div id="menu">
+            <a onclick="showAbout()">About</a>
+            <a onclick="showProjects()">Projects</a>
+            <a onclick="showContact()">Contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a  href="https://www.instagram.com/_a.y.u.s.h.07_/?next=%2F_a.y.u.s.h.07_%2F" class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://www.linkedin.com/in/ayush-kumar-46062927a/" class="social"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://x.com/_a_y_u_s_h_07"  class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://github.com/ayushnagar07" class="social"><i class="fab fa-github" ></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="Projects_container" class="container">
+        <div onclick="closeProjects()"><i class="fas fa-angle-right"></i></div>
+        <h1 style="margin-left: 0 0 15px 25px;">Projects</h1>
+        <section>
+            <h2>1. Obstacle Detection in Remote Control Car</h2>
+            <p>
+                IOT project <br>
+                    It is a remote control car which has the self obstacle avoiding function.
+                    This car has been developed with the interaction of Android-based device
+                    and Arduino UNO. This car has many hardware components such as
+                    Bluetooth module and buzzers.
+            </p>
+            <h2>2. E-commerce platform</h2>
+            <p>
+                DB management <br>
+                Using reactjs creating the ui of sneaker site named SneakHunt using
+                mongodb created database for storing the order placements,
+            </p>
+            <h2>3. Gesture based computer controls</h2>
+            <p>
+                Python <br>
+                A Python based project for mouse events like air mouse, volume and opening youtube by using Hand Gestures.
+            </p>
+            
+        </section>
+    </div>
+    <div id="About_container" class="container">
+            <div onclick="closeAbout()"><i class="fas fa-angle-left"></i></div>
+            <h1>About <span style="color: rgba(5, 1, 1, 0.9);">ME</span></h1>
+            <section>
+                <p>
+                    CS undergrad at DSATM. Passionate Web Developer adapt in all stages of web development. Known for increasing productivity and relieving workload of managerial staff. Proven efficiency with an ability to quickly learn and navigate any computer software program, or office filing system.
+                </p>
+            </section>
+            <div class="btn-box" >
+                <a href="https://drive.google.com/file/d/19jSlwPQ_xkT428jD4fpPq1Rzwxu-MAkb/view?usp=sharing" class="btn">Resume</a>
+            </div>
+
+            
+        </div>
+        <div id="Contact_container" class="container">
+            <div onclick="closeContact()"><i class="fas fa-angle-down"></i></div>
+            <h1>Contact <span style="color: rgba(5, 1, 1, 0.9);">ME</span></h1>
+            <section>
+                <h2>Let's build Together</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn-one">SEND</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
