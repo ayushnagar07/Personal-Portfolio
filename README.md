@@ -1,6 +1,3 @@
-My Portfolio
-<br>
-<br>
 This is my personal portfolio. <br>
 <br>
  Language used:<br>
