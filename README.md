@@ -1,10 +1,11 @@
 My Portfolio
 <br>
-This is my personal portfolio. <br>
- Language used:
- 1.HTML
- 2.CSS
- 3.JAVASCRIPT
 <br>
-Editor used:
+This is my personal portfolio. <br>
+ Language used:<br>
+ 1.HTML<br>
+ 2.CSS<br>
+ 3.JAVASCRIPT<br>
+<br>
+Editor used:<br>
 Visual studio code
